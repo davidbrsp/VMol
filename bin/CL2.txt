@@ -1,0 +1,3 @@
+centro = 0.50 0 0, raio = 0.25, cor = 1 0 1, ligacoes = 1 0 0 0
+centro = -0.50 0 0, raio = 0.25, cor = 1 0 1, ligacoes = 0 0 0 0
+

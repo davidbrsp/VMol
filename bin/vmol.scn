@@ -1,0 +1,180 @@
+scene
+{
+   light = dist_light
+   {
+      direction = {0, 1, -1}
+   }
+   object = csgobj
+   {
+      shape = csg_prim {sphere {center = {0.00, 0.00, 0.00}, radius = 0.35}},
+      material = plastic {ka = 0.2, kd = 0.8, ks = 0.0, d_col = {0.00, 0.00, 1.00}, s_col = {0.00, 0.00, 1.00}}
+   }
+   object = csgobj
+   {
+      shape = csg_prim {sphere {center = {-0.32, -0.45, -0.78}, radius = 0.12}},
+      material = plastic {ka = 0.2, kd = 0.8, ks = 0.0, d_col = {0.00, 1.00, 1.00}, s_col = {0.00, 1.00, 1.00}}
+   }
+   object = csgobj
+   {
+      shape = csg_prim {sphere {center = {-0.32, -0.45, 0.78}, radius = 0.12}},
+      material = plastic {ka = 0.2, kd = 0.8, ks = 0.0, d_col = {0.00, 1.00, 1.00}, s_col = {0.00, 1.00, 1.00}}
+   }
+   object = csgobj
+   {
+      shape = csg_prim {sphere {center = {-0.32, 0.90, 0.00}, radius = 0.12}},
+      material = plastic {ka = 0.2, kd = 0.8, ks = 0.0, d_col = {0.00, 1.00, 1.00}, s_col = {0.00, 1.00, 1.00}}
+   }
+   object = csgobj
+   {
+      shape = csg_prim {sphere {center = {0.96, 0.00, 0.00}, radius = 0.35}},
+      material = plastic {ka = 0.2, kd = 0.8, ks = 0.0, d_col = {0.00, 0.00, 1.00}, s_col = {0.00, 0.00, 1.00}}
+   }
+   object = csgobj
+   {
+      shape = csg_prim {sphere {center = {1.36, 0.64, 0.00}, radius = 0.30}},
+      material = plastic {ka = 0.2, kd = 0.8, ks = 0.0, d_col = {1.00, 0.00, 0.00}, s_col = {1.00, 0.00, 0.00}}
+   }
+   object = csgobj
+   {
+      shape = csg_prim {sphere {center = {1.36, -0.64, 0.00}, radius = 0.30}},
+      material = plastic {ka = 0.2, kd = 0.8, ks = 0.0, d_col = {1.00, 0.00, 0.00}, s_col = {1.00, 0.00, 0.00}}
+   }
+   object = csgobj
+   {
+      shape = csg_prim {sphere {center = {1.99, -0.64, 0.00}, radius = 0.12}},
+      material = plastic {ka = 0.2, kd = 0.8, ks = 0.0, d_col = {0.00, 1.00, 1.00}, s_col = {0.00, 1.00, 1.00}}
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.00, 0.00, 0.00}, {-0.32, -0.45, -0.78}, {0.06, 0.00, 0.00}},
+         {{-0.32, -0.45, -0.78}, {0.06, 0.00, 0.00}, {-0.26, -0.45, -0.78}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.00, 0.00, 0.00}, {-0.32, -0.45, -0.78}, {0.00, 0.06, 0.00}},
+         {{-0.32, -0.45, -0.78}, {0.00, 0.06, 0.00}, {-0.32, -0.39, -0.78}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.00, 0.00, 0.00}, {-0.32, -0.45, -0.78}, {0.00, 0.00, 0.06}},
+         {{-0.32, -0.45, -0.78}, {0.00, 0.00, 0.06}, {-0.32, -0.45, -0.72}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.00, 0.00, 0.00}, {-0.32, -0.45, 0.78}, {0.06, 0.00, 0.00}},
+         {{-0.32, -0.45, 0.78}, {0.06, 0.00, 0.00}, {-0.26, -0.45, 0.78}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.00, 0.00, 0.00}, {-0.32, -0.45, 0.78}, {0.00, 0.06, 0.00}},
+         {{-0.32, -0.45, 0.78}, {0.00, 0.06, 0.00}, {-0.32, -0.39, 0.78}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.00, 0.00, 0.00}, {-0.32, -0.45, 0.78}, {0.00, 0.00, 0.06}},
+         {{-0.32, -0.45, 0.78}, {0.00, 0.00, 0.06}, {-0.32, -0.45, 0.84}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.00, 0.00, 0.00}, {-0.32, 0.90, 0.00}, {0.06, 0.00, 0.00}},
+         {{-0.32, 0.90, 0.00}, {0.06, 0.00, 0.00}, {-0.26, 0.90, 0.00}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.00, 0.00, 0.00}, {-0.32, 0.90, 0.00}, {0.00, 0.06, 0.00}},
+         {{-0.32, 0.90, 0.00}, {0.00, 0.06, 0.00}, {-0.32, 0.96, 0.00}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.00, 0.00, 0.00}, {-0.32, 0.90, 0.00}, {0.00, 0.00, 0.06}},
+         {{-0.32, 0.90, 0.00}, {0.00, 0.00, 0.06}, {-0.32, 0.90, 0.06}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.00, 0.00, 0.00}, {0.96, 0.00, 0.00}, {0.00, 0.06, 0.00}},
+         {{0.96, 0.00, 0.00}, {0.00, 0.06, 0.00}, {0.96, 0.06, 0.00}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.00, 0.00, 0.00}, {0.96, 0.00, 0.00}, {0.00, 0.00, 0.06}},
+         {{0.96, 0.00, 0.00}, {0.00, 0.00, 0.06}, {0.96, 0.00, 0.06}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.96, 0.00, 0.00}, {1.36, 0.64, 0.00}, {1.02, 0.00, 0.00}},
+         {{1.36, 0.64, 0.00}, {1.02, 0.00, 0.00}, {1.42, 0.64, 0.00}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.96, 0.00, 0.00}, {1.36, 0.64, 0.00}, {0.96, 0.06, 0.00}},
+         {{1.36, 0.64, 0.00}, {0.96, 0.06, 0.00}, {1.36, 0.70, 0.00}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.96, 0.00, 0.00}, {1.36, 0.64, 0.00}, {0.96, 0.00, 0.06}},
+         {{1.36, 0.64, 0.00}, {0.96, 0.00, 0.06}, {1.36, 0.64, 0.06}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.96, 0.00, 0.00}, {1.36, -0.64, 0.00}, {1.02, 0.00, 0.00}},
+         {{1.36, -0.64, 0.00}, {1.02, 0.00, 0.00}, {1.42, -0.64, 0.00}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.96, 0.00, 0.00}, {1.36, -0.64, 0.00}, {0.96, 0.06, 0.00}},
+         {{1.36, -0.64, 0.00}, {0.96, 0.06, 0.00}, {1.36, -0.58, 0.00}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{0.96, 0.00, 0.00}, {1.36, -0.64, 0.00}, {0.96, 0.00, 0.06}},
+         {{1.36, -0.64, 0.00}, {0.96, 0.00, 0.06}, {1.36, -0.64, 0.06}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{1.36, -0.64, 0.00}, {1.99, -0.64, 0.00}, {1.36, -0.58, 0.00}},
+         {{1.99, -0.64, 0.00}, {1.36, -0.58, 0.00}, {1.99, -0.58, 0.00}} }
+   }
+   object = polyobj
+   {
+      material = plastic {se = 2},
+      shape = trilist {
+         {{1.36, -0.64, 0.00}, {1.99, -0.64, 0.00}, {1.36, -0.64, 0.06}},
+         {{1.99, -0.64, 0.00}, {1.36, -0.64, 0.06}, {1.99, -0.64, 0.06}} }
+   }
+};
