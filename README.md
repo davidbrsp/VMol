@@ -15,8 +15,6 @@
     You should have received a copy of the GNU General Public License
     along with VMol.  If not, see <http://www.gnu.org/licenses/>.
 
-Molecular Co.( See file www\index.html for contact. )
-
 dir     | description
 --------|----------------------------------------
 include | http://www.visgraf.impa.br/sg3d/softw/
@@ -24,6 +22,8 @@ lib     | http://www.visgraf.impa.br/sg3d/softw/
 code    | source code
 www     | website and docs
 bin     | win32 bins
+
+### Usage:
 
 * compile:
 
@@ -47,3 +47,7 @@ bin     | win32 bins
 
 
 Have a Fun!
+
+### Molecular Co.
+#### See file www/index.html for contact information.
+
