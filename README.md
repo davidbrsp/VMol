@@ -25,16 +25,25 @@ code    | source code
 www     | website and docs
 bin     | win32 bins
 
-compile:
-  command line:
-    Open dos command prompt.
-    cd this_directory
-    type make
-  windows:
-    use dev-cpp 4.9.9.2 ( http://www.bloodshed.net/ ):
-    double click vmol.dev
-run:
-  Execute vmol.exe inside bin folder.
+* compile:
+
+  * command line:
+
+    Open DOS command prompt in VMol root directory and type
+
+    ```
+    make
+    ```
+
+  * windows:
+
+    * Use dev-cpp 4.9.9.2 ( http://www.bloodshed.net/ ):
+ 
+      double click vmol.dev
+
+* run:
+
+   Execute vmol.exe inside bin folder.
 
 
 Have a Fun!
